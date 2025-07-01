@@ -17,9 +17,7 @@ Using Micromamba install GammaPy virtual environment v1.2 and run the notebooks 
 
 -dataset provided
 
-
 #### Dependencies 
-
     - numpy - array and math functions
     - scipy - numerical methods 
     - regions - Astropy sky region package
