@@ -30,7 +30,7 @@ Dataset kindly provvided by the
     - pandas- for working with datasets structures
 
 ### Authors and acknowledgment
-Julia Favaro's bio: I'm a master student from the University of Pisa (Italy). I am currently pursuing a career in astroparticle physics and data analysis. In July and August 2024, I worket at the CERN's  Summer Student Program, as summer student in the Neutrino group, particularly on Proto-DUNE.
+Julia Favaro: I am a master's student at the University of Pisa (Italy), specializing in astroparticle physics and data analysis. In July and August 2025, I participated in the CERN Summer Student Program, working with the Neutrino group on the Proto-DUNE project.
 
 Supervisors: Dr. Klaudia Wawroska, Alessandro Thea, Giovanna Lehmann Miotto (EP-DUNE Department). 
   
