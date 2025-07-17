@@ -1,5 +1,5 @@
 # Julia Favaro's Project - CERN Summer Student 2025, Neutrino group
-  -title
+  TPs' analysis for the LArTPC performances
   
 This project will focus on comparing sensitivity thresholds, noise characteristics, detector response, and background rates between real and simulated ProtoDUNE data, focusing particularly on Argon-39.
 
@@ -12,7 +12,9 @@ Indico webpage of the 2025's program: [https://indico.desy.de/event/44862/](http
 -eventual bibliography
 
 ### Project structure
+- 'MC_data.ipynb': This notebook contains analysis and visualization routines for simulated ProtoDUNE MC data. It focuses on comparing MC data properties with detector response to it, including sensitivity, noise, and background rates.
 
+- 'RUN_test.ipynb': Main analysis notebook for cosmic runs. Includes routines for pileup extraction, visible energy quantification, dead channel identification, and plotting.
 
 ### Usage
 Python  (Conda) environment to run the notebooks. We used the library Uproot to read, write and manipulate the ROOT files without installing ROOT itself.
