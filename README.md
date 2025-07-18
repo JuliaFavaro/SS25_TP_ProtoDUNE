@@ -1,7 +1,7 @@
 # Julia Favaro's Project - CERN Summer Student 2025, Neutrino group
-  TPs' analysis for the LArTPC performances
+## TPs' analysis for the LArTPC performances
   
-This project will focus on comparing sensitivity thresholds, noise characteristics, detector response, and background rates between real and simulated ProtoDUNE data, focusing particularly on Argon-39.
+This project will focus on comparing sensitivity thresholds, noise characteristics, detector response, and background rates between real and simulated ProtoDUNE data, focusing particularly on Argon-39, as part of the Offline Trigger Analysis.
 
 Indico webpage of the 2025's program: [https://indico.desy.de/event/44862/](https://summerstudent.web.cern.ch/2025)
 
@@ -19,7 +19,7 @@ Indico webpage of the 2025's program: [https://indico.desy.de/event/44862/](http
 ### Usage
 Python  (Conda) environment to run the notebooks. We used the library Uproot to read, write and manipulate the ROOT files without installing ROOT itself.
 
-Dataset kindly provvided by the 
+Dataset kindly provvided by the PD Far Detector CERN EP group.
 
 #### Dependencies 
     - numpy - array and math functions
@@ -27,8 +27,6 @@ Dataset kindly provvided by the
     - awkward- for working with ragged arrays
     - scipy - numerical methods 
     - matplotlib- plotting
-    - iminuit- for fitting by optimization
-    - ipython, jupyter and jupyterlab- interactive analysis
     - pandas- for working with datasets structures
 
 ### Authors and acknowledgment
