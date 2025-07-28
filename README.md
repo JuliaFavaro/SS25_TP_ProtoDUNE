@@ -3,7 +3,7 @@
 
 This repository contains the analysis for the CERN Summer Student 2025 project with the EP-NU group. The project focuses on the analysis of Trigger Primitives (TPs) for evaluating Liquid Argon Time Projection Chamber (LArTPC) performance. It involves comparing sensitivity thresholds, noise characteristics, detector response, and background rates between real and simulated ProtoDUNE data, with a specific focus on Argon-39 as part of the Offline Trigger Analysis.
 
-Indico webpage of the 2025's program: [https://indico.desy.de/event/44862/](https://summerstudent.web.cern.ch/2025)
+Indico webpage of the 2025's program: [https://summerstudent.web.cern.ch/2025](https://summerstudent.web.cern.ch/2025)
 
 ### Description of the project
 -indicate the actual idea behind this project
@@ -20,8 +20,7 @@ The repository is organized as follows:
     -   `pdhd_run03297*.root`: Real cosmic ray data from three different runs of the PDHD detector.
 -   `src/`: Contains the Jupyter notebooks with the analysis code.
     -   `MC_data.ipynb`: Explores the simulated muon (MC) data. It analyzes detector response, correlates MC truth energy with visible TP energy, and visualizes track projections based on true particle kinematics.
-    -   `RUN_test.ipynb`: Provides a general analysis of real cosmic runs, comparing TP distributions between data and MC, and visualizing activity across all Anode Plane Assemblies (APAs).
-    -   `RUN_test_event_run_TPC.ipynb` & `RUN_test_run_TPC.ipynb`: These notebooks offer a deep dive into specific events from the real data (run 32974). They include detailed noise analysis, threshold optimization, and track reconstruction using DBSCAN clustering and RANSAC linear fitting.
+    -   `RUN_test_event_run.ipynb` & `RUN_test_run.ipynb`: These notebooks offer a deep dive into specific events from the real data (run 32974). They include detailed noise analysis, threshold optimization, and track reconstruction using DBSCAN clustering and RANSAC linear fitting.
 -   `pyproject.toml`: Defines the project metadata and Python dependencies.
   
 ### Key Analysis Components
