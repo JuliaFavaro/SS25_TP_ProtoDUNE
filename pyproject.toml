@@ -1,14 +1,14 @@
 [project]
-name = "Favaro Summer Student 2025"
+name = "Favaro-Summer-Student-2025" 
 version = "0.1.0" 
 description = "Trigger optimization PDHD"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-  {name = "Julia Favaro", email = "j.favaro@studenti.unipi.it"}, {name="Klaudia Wawroska", email="klaudia.nicola.wawrowska@cern.ch"}
+  {name = "Julia Favaro", email = "j.favaro@studenti.unipi.it"}
 ]
 
-dependencies = ["pandas",  "numpy", "uproot", "awkward", "matplotlib"]
+dependencies = ["uproot", "awkward", "numpy","pandas","matplotlib","ipympl", "scipy", "scikit-learn", ]
 
 [build-system]
 requires = ["hatchling>=1.17.1", "hatch-vcs"]
